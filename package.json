@@ -1,0 +1,30 @@
+{
+    "name": "gen-eth",
+    "version": "1.0.1",
+    "description": "this package helps you to generate custom public ethereum address",
+    "main": "index.js",
+    "bin": {
+        "gen-eth": "./index.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/PrakashSinghRawat-git/eth-address-generator.git"
+    },
+    "keywords": [
+        "ethereum",
+        "crypto"
+    ],
+    "author": "kalki299",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/PrakashSinghRawat-git/eth-address-generator/issues"
+    },
+    "homepage": "https://github.com/PrakashSinghRawat-git/eth-address-generator#readme",
+    "dependencies": {
+        "ethers": "^6.12.1",
+        "gen-eth": "^1.0.0"
+    }
+}
